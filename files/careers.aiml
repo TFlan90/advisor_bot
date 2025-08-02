@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- OS Roles --> 
+    
+    <category>
+        <pattern>IMPLEMENTATION DETAILS</pattern>
+        <template>
+            Career option to consider:<br></br>Kernal Developer<br></br> Learn more about the role by clicking the link below
+            <button>
+               <text>Link</text>
+                <url>https://kernelnewbies.org/CareerAdvice?utm_</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>IMPLEMENTATION</pattern>
+        <template><srai>IMPLEMENTATION DETAILS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* IMPLEMENTATION</pattern>
+        <template><srai>IMPLEMENTATION DETAILS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HARDWARE</pattern>
+        <template>
+            Career option to consider:<br></br>Robotics Software Engineer <br></br> Learn more about the role by clicking the link below
+            <button>
+                <text>Link</text>
+                <url>https://www.wgu.edu/career-guide/information-technology/robotics-software-engineer-career.html?</url>
+            </button>
+        </template>
+    </category> 
+    
+    <category>
+        <pattern>* HARDWARE</pattern>
+        <template><srai>HARDWARE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HARDWARE *</pattern>
+        <template><srai>HARDWARE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* HARDWARE *</pattern>
+        <template><srai>HARDWARE</srai></template>
+    </category>
+    
+	<!-- Architecture roles -->
+	
+	<category>
+	    <pattern>WRITE SOFTWARE</pattern>
+	    <template>
+            Career option to consider:<br></br>Hardware Software Specialist <br></br> Learn more about the role by clicking the link below
+            <button>
+                <text>Link</text>
+                <url>https://www.expertia.ai/blogs/jd/hardware-software-specialist-job-description-68267x?utm_</url>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>SOFTWARE</pattern>
+        <template><srai>WRITE SOFTWARE</srai></template>
+    </category>
+
+    <category>
+        <pattern>* SOFTWARE</pattern>
+        <template><srai>WRITE SOFTWARE</srai></template>
+    </category>
+    
+	<category>
+        <pattern>DESIGN ROLE</pattern>
+        <template>
+            Career option to consider:<br></br>Embedded Systems Engineer <br></br> Learn more about the role by clicking the link
+            <button>
+                <text>Link</text>
+                <url>https://www.pce.uw.edu/news-features/articles/how-to-become-an-embedded-software-engineer?</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* DESIGN *</pattern>
+        <template><srai>DESIGN ROLE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* DESIGN</pattern>
+        <template><srai>DESIGN ROLE</srai></template>
+    </category>
+        <category>
+        <pattern>DESIGN</pattern>
+        <template><srai>DESIGN ROLE</srai></template>
+    </category>
+    
+    <!-- Networking Roles -->
+    <category>
+        <pattern>BUILDING NETWORK INFRASTRUCTURE</pattern>
+        <template>
+            Career option to consider:<br></br>Network Engineer <br></br> Learn more about the role by clicking the link
+            <button>
+                <text>Link</text>
+                <url>https://www.pynetlabs.com/network-engineer-roadmap/?utm_</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NETWORK INFRA</pattern>
+        <template><srai>BUILDING NETWORK INFRASTRUCTURE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>AUTOMATING NETWORK SYSTEMS</pattern>
+        <template>
+            Career option to consider:<br></br>Site Reliability Engineer <br></br> Learn more about the role by clicking the link
+            <button>
+                <text>Link</text>
+                <url>https://www.coursera.org/articles/site-reliability-engineer?utm_</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>AUTOMATING *</pattern>
+        <template><srai>AUTOMATING NETWORK SYSTEMS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* AUTOMATING *</pattern>
+        <template><srai>AUTOMATING NETWORK SYSTEM</srai></template>
+    </category>
+    
+    <!-- InfoSec Roles -->
+    <category>
+        <pattern>APPLYING *</pattern>
+        <template>
+            Career option to consider:<br></br>Security Engineer<br></br> Learn more about the role by clicking the link
+            <button>
+                <text>Link</text>
+                <url>https://www.cyberdegrees.org/jobs/security-engineer/#:~:text=Alternate%20titles%20for%20this%20career,$95%2C820%20as%20of%20February%202022.</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>APPLYING</pattern>
+        <template><srai>APPLYING *</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* COMPLIANCE</pattern>
+        <template>
+            Career option to consider:<br></br>Security Compliance Engineer<br></br> Learn more about the role by clicking the link
+            <button>
+                <text>Link</text>
+                <url>https://handbook.amazee.io/roles/IT-and-Security/security-compliance-engineer/</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CREATING *</pattern>
+        <template><srai>* COMPLIANCE</srai></template>
+    </category>
+    
+    <!-- Software Engineering -->
+    <category>
+        <pattern>ORGANIZING</pattern>
+        <template>
+            Career option to consider:<br></br>Technical Project Manager<br></br> Learn more about the role by clicking the link
+            <button>
+                <text>Link</text>
+                <url>https://www.indeed.com/hire/job-description/technical-project-manager</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>CODE</pattern>
+        <template>
+            Career option to consider:<br></br>Software Engineer<br></br> Learn more about the role by clicking the link
+            <button>
+                <text>Link</text>
+                <url>https://www.coursera.org/articles/software-engineer-job-description</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* CODE</pattern>
+        <template><srai>CODE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>CODING</pattern>
+        <template><srai>CODE</srai></template>
+    </category>
+    
+</aiml>
+
+
+

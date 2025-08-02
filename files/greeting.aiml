@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- *Conversation Flow*
+	Greeting : collect user name : introduction 
+	: want to learn about careers? : start options funnel or exit
+	-->
+	
+	<category>
+	    <pattern>HI</pattern>
+	    <template>
+	        <random>
+	            <li>Hello! </li>
+	            <li>Greetings! </li>
+                <li>Hola! </li>
+	        </random>
+	         What's your name?
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>MY NAME IS *</pattern>
+	    <template>
+	    It's nice to meet you <set name = "name"><star/></set><br/>
+	    I'm an advisor bot created by Eastern Mayor's College to help you
+	    deide which career options to consider 
+	    <br/><br/>
+	    Would you like to continue? Say "menu" if you'd like to learn about career
+	    options based on your favorite classes!
+	    </template>
+	</category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <template>No problem! Thanks for stopping in for a chat :) 
+        If you change your mind, simply say "menu" in this chat window
+         <br/>
+         Have a great day!</template>
+    </category>
+    
+    <category>
+        <pattern>NO *</pattern>
+        <template><srai>NO</srai></template>
+    </category>
+	
+	<category>
+	    <pattern>MENU</pattern>
+	    <template>
+	    In which computer science course did you perform the best?<br/>
+	    Popular selections include:<br/>
+	    Operating Systems<br/>
+	    Computer Architecture<br/>
+	    Networking<br/>
+	    Information Security<br/>
+	    Software Engineering<br/>
+	    <br></br>
+	    If you ever want to start over, say "menu" in chat and you will be able to see this options again
+        </template>
+    </category>
+    
+
+    <category>
+        <pattern>HEY</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+    
+    <category>
+        <pattern>YO</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HELLO</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+
+</aiml>

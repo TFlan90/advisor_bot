@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Funnels user into different careers based on their response -->
+	
+	<category>
+	    <pattern>OPERATING SYSTEMS</pattern>
+	    <template>Would you rather work on *hardware* or OS *implementation details*?
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>COMPUTER ARCHITECTURE</pattern>
+        <template>
+            Would you rather *design systems* close to the hardware or *write software* that interacts with it?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NETWORKING</pattern>
+        <template>
+            Are you more interested in *building network infrastructure* or *automating network systems*?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>INFORMATION SECURITY</pattern>
+        <template>
+            Do you have more interest in *applying security principles* or *creating requirements and managing compliance*?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SOFTWARE ENGINEERING</pattern>
+        <template>
+            Do you prefer the idea of *organizing* a team or would you rather be the one *coding* the solution?
+        </template>
+    </category>
+
+    
+	
+</aiml>
